@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<header> <h1> Seja Bem-vinda(o) </h1></header>
+<body>
+    <div class="quadro">
+
+        <div class="formulario">
+            <!-- method="get" , Quando method="get", as informações inseridas no formulário são enviadas como parte da URL da página. Isso significa que as informações ficam visíveis na barra de endereço do navegador -->
+            <form action="cad.php" method="get" id="form">
+
+            <label for="nome" class="label_1"> Nome </label> <br>
+            
+               <!--    A tag "name" em um elemento "input" do HTML é usada para especificar o nome do campo de entrada de dados que será enviado para o servidor quando o formulário for enviado.  -->
+            <input type="text" name="nome" id="idnome" class="input_form1"> <br>
+
+            <label for="sobrenome" class="label_2"> Sobrenome</label><br>
+            <input type="text" name="sobrenome" id="idsobrenome" class="input_form2"> <br>
+
+            <input type="submit" value="Enviar" id="botao_enviar">
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
